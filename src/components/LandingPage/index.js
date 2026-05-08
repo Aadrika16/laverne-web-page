@@ -100,20 +100,7 @@ const LaverneStudio = () => {
             <h4>Have a design in mind?</h4>
             <p>Let’s create something
               that doesn’t exist anywhere else.</p>
-            <div className="stats">
-              <div>
-                <h3>500+</h3>
-                <p>Bespoke Pieces</p>
-              </div>
-              <div>
-                <h3>100%</h3>
-                <p>Solid Wood</p>
-              </div>
-              <div>
-                <h3>1-of-1</h3>
-                <p>Unique Designs</p>
-              </div>
-            </div>
+            
           </div>
         </div>
       </section>
