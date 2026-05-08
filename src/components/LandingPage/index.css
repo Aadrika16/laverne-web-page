@@ -227,7 +227,9 @@ a {
   color: #555;
   font-size: 17px;
 }
-
+.about h4{
+  color: #d4af37;
+}
 .stats {
   display: flex;
   gap: 50px;

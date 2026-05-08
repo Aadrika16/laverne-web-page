@@ -1,6 +1,9 @@
 import React from "react";
 import { FaInstagram ,FaLeaf,FaMapMarkerAlt } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
+import { 
+  IoLogoWhatsapp
+} from "react-icons/io5";
 import "./index.css";
 
 const furnitureItems = [
@@ -71,17 +74,32 @@ const LaverneStudio = () => {
       {/* ABOUT */}
       <section id="about"className="about">
         <div className="container about-grid">
-          <img src="https://golden-grove-gallery.lovable.app/assets/craftsman-Dds5xLVE.jpg" alt="craftsman" />
+          <img src="https://res.cloudinary.com/doyaebals/image/upload/v1778241770/WhatsApp_Image_2026-05-08_at_16.06.39_q2uy3v.jpg" alt="laverne-studio" className="laverne-studio-img"/>
           <div>
             <span className="span-ele"> — OUR STORY</span>
-            <h2>Where wood becomes memory</h2>
+            <h2>Built on a four-generation legacy.</h2>
             <p>
-              Laverne Studio blends natural textures with modern design to create timeless furniture pieces that elevate your living experience.
-              Every grain tells a story — every joint, a quiet act of devotion.
+              From Zam Zam Furniture (1980)
+              to Woody Jewels (2015)
+              to Laverne (2026).
 
-              From hand-selected timber to the final breath of finish, our artisans pour weeks into every piece.
-              The result isn't furniture — it's an heirloom waiting for your home.
+              For decades, we’ve been crafting
+              what others call impossible.
+
+              From a simple reference image
+              to a fully realized masterpiece —
+
+              we turn ideas into bespoke luxury.
+
+              Because true design isn’t chosen,
+              it’s created.
+
+              If it doesn’t exist yet,
+              we’ll build it for you.
             </p>
+            <h4>Have a design in mind?</h4>
+            <p>Let’s create something
+              that doesn’t exist anywhere else.</p>
             <div className="stats">
               <div>
                 <h3>500+</h3>
@@ -235,16 +253,27 @@ const LaverneStudio = () => {
               >
                 Visit Studio
               </a></p>
-              <p><a href="mailto:hello@lavernestudio.com" className="footer-link">Contact Us</a></p>
+              <p className="footer-contact-item-con">  
+                <a href="tel:+919876543210" className="footer-link">Contact Us</a>
+              </p>
             </div>
 
             <div>
               <h4>Contact</h4>
               <p className="footer-contact-item-con">  
-                <HiOutlineMail  className="email-icon"/>
-                <a href="mailto:hello@lavernestudio.com" className="footer-link">
-                  hello@lavernestudio.com
+                <IoLogoWhatsapp className="email-icon" /> 
+                <a 
+                  href="https://wa.me/919876543210" 
+                  target="_blank" 
+                  rel="noreferrer" 
+                  className="footer-link"
+                >
+                  WhatsApp Business
                 </a>
+            </p>
+              <p className="footer-contact-item-con">  
+                <HiOutlineMail  className="email-icon"/>
+                  hello@lavernestudio.com
               </p>
               <p className="footer-contact-item-con"> 
                 <FaMapMarkerAlt className="email-icon"/> 
