@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/laverne-app/static/css/main.37e39151.css",
-    "main.js": "/laverne-app/static/js/main.b7fb75d2.js",
-    "static/js/453.946ac5db.chunk.js": "/laverne-app/static/js/453.946ac5db.chunk.js",
-    "index.html": "/laverne-app/index.html",
-    "main.37e39151.css.map": "/laverne-app/static/css/main.37e39151.css.map",
-    "main.b7fb75d2.js.map": "/laverne-app/static/js/main.b7fb75d2.js.map",
-    "453.946ac5db.chunk.js.map": "/laverne-app/static/js/453.946ac5db.chunk.js.map"
+    "main.css": "/laverne-web-page/static/css/main.37e39151.css",
+    "main.js": "/laverne-web-page/static/js/main.7e37070a.js",
+    "static/js/453.946ac5db.chunk.js": "/laverne-web-page/static/js/453.946ac5db.chunk.js",
+    "index.html": "/laverne-web-page/index.html",
+    "main.37e39151.css.map": "/laverne-web-page/static/css/main.37e39151.css.map",
+    "main.7e37070a.js.map": "/laverne-web-page/static/js/main.7e37070a.js.map",
+    "453.946ac5db.chunk.js.map": "/laverne-web-page/static/js/453.946ac5db.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.37e39151.css",
-    "static/js/main.b7fb75d2.js"
+    "static/js/main.7e37070a.js"
   ]
 }
