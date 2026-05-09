@@ -22,7 +22,7 @@ const LaverneStudio = () => {
       <header className="header">
         <div className="container header-inner">
           <a href="#top" className="logo">
-            <img src="https://golden-grove-gallery.lovable.app/assets/logo-D0FeSGT-.png" alt="Laverne Studio" />
+            <img src="https://res.cloudinary.com/doyaebals/image/upload/v1778308645/WhatsApp_Image_2026-05-09_at_12.03.03_PM_iitj1d.jpg" alt="Laverne Studio" />
           </a>
             
           <div className="header-actions">
