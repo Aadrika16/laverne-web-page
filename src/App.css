@@ -1,6 +1,33 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+
+html,
+body,
+#root {
+  width: 100%;
+  min-height: 100vh;
+
+  overflow-x: hidden;
+
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+
+  background-color: #ffffff;
+}
+
+.App {
+  width: 100%;
+  min-height: 100vh;
+
+  position: relative;
+}
+
 
 .App-logo {
   height: 40vmin;
