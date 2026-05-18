@@ -7,12 +7,18 @@ import {
 import "./index.css";
 
 const furnitureItems = [
-    {id: 1 , name : "Beds",imageUrl : "https://golden-grove-gallery.lovable.app/assets/cat-beds-BEElWZ5e.jpg"},
-    {id: 2 , name : "Sofas",imageUrl : "https://golden-grove-gallery.lovable.app/assets/cat-sofas-D6bCXyEq.jpg"}, 
-    {id: 3 , name : "Recliners" , imageUrl : "https://golden-grove-gallery.lovable.app/assets/cat-recliners-CYaYT9t7.jpg"},
-    {id: 4 , name : "Dining Tables" , imageUrl : "https://golden-grove-gallery.lovable.app/assets/cat-dining-BxDte3NT.jpg"},
-    {id: 5 , name : "Decor Pieces" , imageUrl : "https://golden-grove-gallery.lovable.app/assets/cat-decor-CAB6RkRl.jpg"},
-    {id: 6 , name : "Tree House" , imageUrl : "https://golden-grove-gallery.lovable.app/assets/treehouse-fULXD3Be.jpg"}
+    {id: 1 , name : "Beds",text:"RESTFUL",imageUrl : "https://golden-grove-gallery.lovable.app/assets/cat-beds-BEElWZ5e.jpg"},
+    {id: 2 , name : "Sofas",text:"LOUNGE",imageUrl : "https://golden-grove-gallery.lovable.app/assets/cat-sofas-D6bCXyEq.jpg"}, 
+    {id: 3 , name : "Armchairs" ,text :"CUSTOM", imageUrl : "https://golden-grove-gallery.lovable.app/assets/cat-armchairs-V-_No7Zb.jpg"},
+    {id: 4 , name : "Dining Tables" ,text : "GATHER", imageUrl : "https://golden-grove-gallery.lovable.app/assets/cat-dining-BxDte3NT.jpg"},
+    {id: 5 , name : "Decor" ,text:"ACCENT", imageUrl : "https://golden-grove-gallery.lovable.app/assets/cat-decor-CAB6RkRl.jpg"}
+];
+const interiorItems = [
+    {id: 1 , name : "Kitchens",text:"HEART OF HOME",imageUrl : "https://golden-grove-gallery.lovable.app/assets/int-kitchens-Bs5b8UEh.jpg"},
+    {id : 2 , name : "Paneling",text:"Walls",imageUrl : "https://golden-grove-gallery.lovable.app/assets/int-paneling-B29qGRi_.jpg"},
+    {id: 3 , name : "Wallpapers",text:"TEXTURE",imageUrl : "https://golden-grove-gallery.lovable.app/assets/int-wallpapers-Dj7ZMpfd.jpg"}, 
+    {id: 4 , name : "Furnishing" ,text :"SOFT TOUCH", imageUrl : "https://golden-grove-gallery.lovable.app/assets/int-furnishing-fvqOMxOZ.jpg"},
+    {id: 5 , name : "Flooring" ,text : "FOUNDATION", imageUrl : "	https://golden-grove-gallery.lovable.app/assets/int-flooring-BFVQFOfn.jpg"}
 ];
 
 const LaverneStudio = () => {
@@ -109,21 +115,46 @@ const LaverneStudio = () => {
       {/* CATEGORIES */}
         <section id="categories" className="categories">
             <div className="container">
-                <h2>Collections</h2>
+                <h2>Furniture</h2>
 
-                <div className="grid">
+              <div className="grid">
                 {furnitureItems.map((item) => (
-                    <div key={item.id} className="category-card">
+                  <div key={item.id} className="category-card">
                     <img src={item.imageUrl} alt={item.name} />
 
                     <div className="category-overlay">
+                      <div className="category-content">
+                        <span className="category-text">{item.text}</span>
                         <h3>{item.name}</h3>
+                      </div>
                     </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+        </section> 
+
+        {/* Interiors */}  
+        <section id="categories" className="categories">
+          <div className="container">
+            <h2>Interiors</h2>
+            <div className="grid">
+                {interiorItems.map((item) => (
+                    <div key={item.id} className="category-card">
+                     <img src={item.imageUrl} alt={item.name} />
+
+                      <div className="category-overlay">
+                        <div className="category-content">
+                          <span className="category-text">{item.text}</span>
+                          <h3>{item.name}</h3>
+                        </div>
+                      </div>
                     </div>
                 ))}
                 </div>
             </div>
-        </section>
+        </section> 
+        
         {/* TREE HOUSE SECTION */}
         <section className="treehouse">
           <div className="container treehouse-grid">
@@ -241,7 +272,7 @@ const LaverneStudio = () => {
                 Visit Studio
               </a></p>
               <p className="footer-contact-item-con">  
-                <a href="tel:+919876543210" className="footer-link">Contact Us</a>
+                <a href="tel:+917330070077" className="footer-link">Contact Us</a>
               </p>
             </div>
 
@@ -250,7 +281,7 @@ const LaverneStudio = () => {
               <p className="footer-contact-item-con">  
                 <IoLogoWhatsapp className="email-icon" /> 
                 <a 
-                  href="https://wa.me/919876543210" 
+                  href="https://wa.me/917330070077?text=Hello%20Laverne%20Team%2C%20I%20would%20like%20to%20know%20more%20about%20your%20services." 
                   target="_blank" 
                   rel="noreferrer" 
                   className="footer-link"
